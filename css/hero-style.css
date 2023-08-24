@@ -1,0 +1,98 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.container {
+    width: 100%;
+    max-width: 1350px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0 auto;
+  }
+.hero{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    height: 717px;
+    width: 375px;
+ background-repeat: no-repeat;
+    background-image:url(../img/hero-product-mob-1.jpg);
+}
+.hero-titel{
+ margin-top: 140px;
+    color: var(--blue-font, #0A224A);
+font-family: Playfair Display;
+font-size: 28px;
+font-weight: 400;
+line-height: 1.50;
+letter-spacing: 0.03em;
+}
+.hero-text{
+    margin-top: 14px;
+    width: 343px;
+    color: var(--blue-font, #0A224A);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.50;
+    letter-spacing: 0.04em;
+}
+.hero-btn{
+    background-color: #0A224A;
+    border: none;
+    width: 224px;
+    padding: 12px 65px;
+    margin-top: 28px;
+    color: var(--white, #FFF);
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.50;
+}
+@media screen and (min-width: 375px) {
+    .container{
+        max-width: 375px;
+    }
+    
+}
+@media screen and (min-width: 768px) {
+    .container{
+        max-width: 768px;
+    }
+    .hero{
+    background-position: right bottom;
+   /* display: flex;
+    justify-content: center;
+    margin: 0 auto;*/
+    width: 768px;
+ background-repeat: no-repeat;
+    background-image:url(../img/hero-product-tab-2.jpg);
+}
+.hero-img{
+    width: 348px;
+    height: 530px;
+    background-position: bottom;  
+      background-repeat: no-repeat;
+    background-image: url(../img/hero-product-tab-1.jpg);}
+}
+.hero-titel{
+    color: var(--blue-font, #0A224A);
+font-family: Playfair Display;
+font-size: 50px;
+font-style: normal;
+font-weight: 400;
+line-height: 75px; /* 150% */
+text-transform: uppercase;
+}
+@media screen and (min-width: 1440px) {
+
+    .container{
+        max-width: 1440px;
+    }
+}
