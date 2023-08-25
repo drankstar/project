@@ -8,93 +8,99 @@ h6 {
   margin-top: 0;
   margin-bottom: 0;
 }
+.hero-section {
+  /* display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  height: 717px;
+  width: 375px;
+  background-repeat: no-repeat;
+  background-image: url(../img/hero-product-mob-1.jpg); */
+  margin: 20px auto;
+  max-width: 375px;
+}
 .hero-container {
-    width: 100%;
-    max-width: 1350px;
-    padding-left: 16px;
-    padding-right: 16px;
-    margin: 0 auto;
+  /* width: 100%; */
+  /* max-width: 1350px; */
+  background-image: url(../img/hero-product-mob-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* padding-left: 16px; */
+  /* padding-right: 16px;
+   */
+  padding: 140px 14px 313px;
+  margin: 0 auto;
+}
+.hero-titel {
+  text-transform: uppercase;
+  /* margin-top: 140px; */
+  width: 286px;
+  color: var(--blue-font, #0a224a);
+  font-family: Playfair Display;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 14px;
+}
+.hero-text {
+  margin-bottom: 28px;
+  /* width: 343px; */
+  color: var(--blue-font, #0a224a);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.hero-btn {
+  background-color: #0a224a;
+  border: none;
+  width: 224px;
+  padding: 12px 65px;
+  color: var(--white, #fff);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+/* @media screen and (min-width: 375px) {
+  .hero-container {
+    max-width: 375px;
   }
-.hero-section{
-    
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    height: 717px;
-    width: 375px;
- background-repeat: no-repeat;
-    background-image:url(../img/hero-product-mob-1.jpg);
-}
-.hero-titel{
-    text-transform: uppercase;
- margin-top: 140px;
-    color: var(--blue-font, #0A224A);
-font-family: Playfair Display;
-font-size: 28px;
-font-weight: 400;
-line-height: 1.50;
-letter-spacing: 0.03em;
-}
-.hero-text{
-    margin-top: 14px;
-    width: 343px;
-    color: var(--blue-font, #0A224A);
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.50;
-    letter-spacing: 0.04em;
-}
-.hero-btn{
-    background-color: #0A224A;
-    border: none;
-    width: 224px;
-    padding: 12px 65px;
-    margin-top: 28px;
-    color: var(--white, #FFF);
-font-family: Roboto;
-font-size: 16px;
-font-weight: 400;
-line-height: 1.50;
-}
-@media screen and (min-width: 375px) {
-    .hero-container{
-        max-width: 375px;
-    }
-    
 }
 @media screen and (min-width: 768px) {
-    .hero-container{
-        max-width: 768px;
-    }
-    .hero-section{
+  .hero-container {
+    max-width: 768px;
+  }
+  .hero-section {
     background-position: right bottom;
     display: flex;
     justify-content: center;
     margin: 0 auto;
     width: 768px;
- background-repeat: no-repeat;
-    background-image:url(../img/hero-product-tab-2.jpg);
-}
-.hero-container-background{
+    background-repeat: no-repeat;
+    background-image: url(../img/hero-product-tab-2.jpg);
+  }
+  .hero-container-background {
     width: 348px;
     height: 530px;
-    background-position: bottom;  
-      background-repeat: no-repeat;
-    background-image: url(../img/hero-product-tab-1.jpg);}
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-image: url(../img/hero-product-tab-1.jpg);
+  }
 }
-.hero-titel{
-    color: var(--blue-font, #0A224A);
-font-family: Playfair Display;
-font-size: 50px;
-font-style: normal;
-font-weight: 400;
-line-height:   1.50;
-text-transform: uppercase;
+.hero-titel {
+  color: var(--blue-font, #0a224a);
+  font-family: Playfair Display;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  text-transform: uppercase;
 }
 @media screen and (min-width: 1440px) {
-
-    .her-container{
-        max-width: 1440px;
-    }
-}
+  .her-container {
+    max-width: 1440px;
+  }
+} */
