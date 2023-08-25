@@ -57,7 +57,7 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.50;
 }
-/*@media screen and (min-width: 375px) {
+@media screen and (min-width: 375px) {
     .hero-container{
         max-width: 375px;
     }
@@ -71,12 +71,12 @@ line-height: 1.50;
     background-position: right bottom;
     display: flex;
     justify-content: center;
-    margin: 0 auto;*
+    margin: 0 auto;
     width: 768px;
  background-repeat: no-repeat;
     background-image:url(../img/hero-product-tab-2.jpg);
 }
-.hero-img{
+.hero-container-background{
     width: 348px;
     height: 530px;
     background-position: bottom;  
@@ -89,12 +89,12 @@ font-family: Playfair Display;
 font-size: 50px;
 font-style: normal;
 font-weight: 400;
-line-height: 75px;  150% 
+line-height:   1.50;
 text-transform: uppercase;
 }
 @media screen and (min-width: 1440px) {
 
-    .container{
+    .her-container{
         max-width: 1440px;
     }
-}*/
+}
