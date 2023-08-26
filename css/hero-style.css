@@ -11,24 +11,31 @@ h6 {
 * {
   box-sizing: border-box;
 }
-body{
-margin: 0;
+body {
+  margin: 0;
 }
 /*  */
 
 .hero-section {
-    margin: 20px auto;
+  margin: 20px auto;
   max-width: 375px;
 }
 .hero-container {
   background-image: url(../img/hero-product-mob-1.jpg);
-  background-color:lightgray  ;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   padding: 140px 14px 313px;
   margin: 0 auto;
 }
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resalution: 2dppx) {
+  .hero-container {
+    background-image: url(../img/hero-product-mob-1-2x.jpg);
+  }
+}
+
 .hero-titel {
   text-transform: uppercase;
   width: 286px;
@@ -61,7 +68,7 @@ margin: 0;
 }
 
 @media screen and (min-width: 768px) {
-  .hero-section {  
+  .hero-section {
     max-width: 768px;
     padding: 0 32px;
   }
@@ -73,8 +80,17 @@ margin: 0;
     background-repeat: no-repeat;
     background-position: top 202px left, top right;
     background-size: auto;
-  } 
-  
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resalution: 2dppx) {
+    .hero-container {
+      background-image: url(../img/hero-product-tab-1-2x.jpg),
+        url(../img/hero-product-tab-2-2x.jpg);
+      background-size: 308px 329px, 364px 531px;
+    }
+  }
+
   .hero-titel {
     margin-bottom: 410px;
     color: var(--blue-font, #0a224a);
@@ -92,17 +108,26 @@ margin: 0;
   }
 }
 @media screen and (min-width: 1440px) {
-  .hero-section {  
+  .hero-section {
     max-width: 1440px;
     padding: 0 60px;
   }
   .hero-container {
     background-image: url(../img/hero-product-1.jpg),
-      url(../img/image.jpg), url(../img/hero-product-3.jpg);
+      url(../img/hero-product-2.jpg), url(../img/hero-product-3.jpg);
     background-repeat: no-repeat;
     background-position: bottom left, center, top right;
     background-size: auto;
-  } 
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resalution: 2dppx) {
+    .hero-container {
+      background-image: url(../img/hero-product-1-2x.jpg),
+        url(../img/hero-product-2-2x.jpg), url(../img/hero-product-3-2x.jpg);
+      background-size: 310px 329px, 648px 530px, 312px 337px;
+    }
+  }
   .hero-titel {
     margin-bottom: 246px;
     width: 648px;
@@ -111,6 +136,4 @@ margin: 0;
     width: 312px;
     margin: 0 0 0 auto;
   }
-  
-
-} 
+}
